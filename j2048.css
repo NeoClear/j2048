@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scoreboard {
+    font-family: Consolas;
+    font-size: 48px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ele {
+    width:160px;
+    height: 160px;
+    border: 2px #888 solid;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    align-items: center;
+    font-size: 40px;
+    font-family: JetBrains Mono;
+}
+
+.restart-wrap {
+    margin: 30px;
+}
+
+#restart {
+    padding: 20px;
+    font-family: JetBrains Mono;
+    font-size: 24px;
+}

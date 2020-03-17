@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J2048</title>
+        <link rel="stylesheet" type="text/css" href="j2048.css">
+    </head>
+    <body>
+        <h1 class="scoreboard">0</h1>
+        <div class="container">
+            <div class="row">
+                <div class="ele" data-row=0 data-col=0>X</div>
+                <div class="ele" data-row=0 data-col=1></div>
+                <div class="ele" data-row=0 data-col=2></div>
+                <div class="ele" data-row=0 data-col=3>X</div>
+            </div>
+    
+            <div class="row">
+                <div class="ele" data-row=1 data-col=0></div>
+                <div class="ele" data-row=1 data-col=1></div>
+                <div class="ele" data-row=1 data-col=2></div>
+                <div class="ele" data-row=1 data-col=3></div>
+            </div>
+            <div class="row">
+                <div class="ele" data-row=2 data-col=0></div>
+                <div class="ele" data-row=2 data-col=1></div>
+                <div class="ele" data-row=2 data-col=2></div>
+                <div class="ele" data-row=2 data-col=3></div>
+            </div>
+            <div class="row">
+                <div class="ele" data-row=3 data-col=0></div>
+                <div class="ele" data-row=3 data-col=1></div>
+                <div class="ele" data-row=3 data-col=2></div>
+                <div class="ele" data-row=3 data-col=3></div>
+            </div>
+        </div>
+        <div class="restart-wrap">
+            <button id="restart">Restart</button>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="j2048.js"></script>
+    </body>
+</html>
